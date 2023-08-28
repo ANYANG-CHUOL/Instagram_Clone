@@ -108,3 +108,29 @@ li{
 .text_secondary{
     color: greywhite;
 }
+#profile_img{
+height: 50px;
+width: 50px;
+border-radius: 50px;
+}
+
+.user_div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.sg_button{
+    background: none;
+    border: none;
+    color: dodgerblue;
+    font-size: 15px;
+}
+.sg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.suggestions{
+    position: sticky;
+    top: 10px;
+}
